@@ -1,0 +1,9 @@
+version: "3"
+
+services:
+  react-app:
+    image: ecommerceproject1/dev:latest
+    container_name: react-devops-app
+    ports:
+      - "80:80"
+    restart: always
